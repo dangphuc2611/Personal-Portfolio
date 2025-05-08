@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 80px; */
+    padding: 0 20px;
+}
+
+#left-aside>div>h3,
+.aside-items>a {
+    padding-left: 30px;
+}
+
+.aside-items {
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.review-container {
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 50px;
+}
